@@ -1,4 +1,0 @@
-Flask==2.3.2  # Example, use your actual versions
-SQLAlchemy==1.4.39
-gunicorn      # <--- ADD THIS LINE
-# ... any other Python dependencies
