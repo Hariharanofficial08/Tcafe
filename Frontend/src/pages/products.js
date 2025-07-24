@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { getProducts, getCategories } from "../services/api";
 import "./products.css";
-import { toast } from "react-toastify";
+
 
 function Products() {
   const [categories, setCategories] = useState([]);
