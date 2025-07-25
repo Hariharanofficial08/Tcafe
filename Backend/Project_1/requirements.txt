@@ -1,5 +1,11 @@
-HEAD
-gunicorn==23.0.0
-packaging==25.0
- 2525ea4fefc6298cfe90a03daa02f7d0e3fc8640
-wheel==0.45.1
+# Core Django framework
+Django==5.0.6
+
+# For building REST APIs with Django
+djangorestframework==3.15.1
+
+# Production web server required by Render
+gunicorn==22.0.0
+
+# Database driver for PostgreSQL (if you are using Render's database service)
+psycopg2-binary==2.9.9
