@@ -146,8 +146,7 @@ REST_FRAMEWORK = {
     'DEFAULT_CHARSET': 'utf-8',
 }
 
-<<<<<<< HEAD
+ HEAD
 
 
-=======
->>>>>>> 2525ea4fefc6298cfe90a03daa02f7d0e3fc8640
+2525ea4fefc6298cfe90a03daa02f7d0e3fc8640
