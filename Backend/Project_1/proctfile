@@ -1,1 +1,2 @@
-web: gunicorn [project_name].wsgi:application
+web: gunicorn Pos_backend_Sample.wsgi:application
+
