@@ -25,8 +25,13 @@ SECRET_KEY = 'django-insecure-my9fw)t57%)!l8*fwnt!k$%w@nge$sx6ay+br=x)ny##go0o#m
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
+ HEAD
 ALLOWED_HOSTS = ['server-production-a124.up.railway.app', 'localhost', '127.0.0.1']
 
+
+#ALLOWED_HOSTS = ['server-production-a124.up.railway.app', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['*']
+ 2525ea4fefc6298cfe90a03daa02f7d0e3fc8640
 
 # Application definition
 
@@ -141,5 +146,8 @@ REST_FRAMEWORK = {
     'DEFAULT_CHARSET': 'utf-8',
 }
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 2525ea4fefc6298cfe90a03daa02f7d0e3fc8640
