@@ -9,3 +9,5 @@ gunicorn==22.0.0
 
 # Database driver for PostgreSQL (if you are using Render's database service)
 psycopg2-binary==2.9.9
+
+django-cors-headers==4.3.1
