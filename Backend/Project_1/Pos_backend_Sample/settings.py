@@ -39,13 +39,12 @@ INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
-    'corsheaders',  # ✅ Correct place
+    'corsheaders',  # ✔ correct place
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'Pos_App',
     'rest_framework',
-]
 ]
 
 MIDDLEWARE = [
