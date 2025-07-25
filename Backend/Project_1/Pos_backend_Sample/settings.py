@@ -36,16 +36,17 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
+INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
-    'corsheaders'
+    'corsheaders',  # ✅ Correct place
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'Pos_App',
-     'rest_framework',
-          'corsheaders',
+    'rest_framework',
+]
 
 ]
 
