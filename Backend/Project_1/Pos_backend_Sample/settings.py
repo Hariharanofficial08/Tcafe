@@ -83,11 +83,27 @@ WSGI_APPLICATION = 'Pos_backend_Sample.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
+#DATABASES = {
+ #   'default': {
+ #     'ENGINE': 'django.db.backends.mysql',#'django.db.backends.mysql',
+  #      'NAME': 'cafee_crm_db',#'cafe_management',
+   #     'USER': 'root',#'root',
+    #    'PASSWORD': 'Gokul@123',
+     #   'HOST': 'localhost',
+      #  'PORT': '3306',
+    #}
+#}
+
+import pymysql
+pymysql.install_as_MySQLdb()
+
+# ... other imports or settings ...
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',#'django.db.backends.mysql',
-        'NAME': 'cafee_crm_db',#'cafe_management',
-        'USER': 'root',#'root',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'cafee_crm_db',
+        'USER': 'root',
         'PASSWORD': 'Gokul@123',
         'HOST': 'localhost',
         'PORT': '3306',
