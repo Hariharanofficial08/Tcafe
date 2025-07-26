@@ -11,6 +11,8 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 import os
 
+# Ensure this BASE_DIR line is at the top of your settings file
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 from pathlib import Path
 
@@ -142,10 +144,6 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
-
-# At the top of your settings.py
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
 # ... other settings
 
 STATIC_URL = '/static/'
