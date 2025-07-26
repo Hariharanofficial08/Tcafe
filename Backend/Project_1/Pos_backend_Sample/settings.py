@@ -103,8 +103,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'cafee_crm_db',
-        'USER': 'django_user',
-        'PASSWORD': 'securepass@123',
+        'USER': 'Sql_user',
+        'PASSWORD': 'Hariharan2005@',
         'HOST': '127.0.0.1',
         'PORT': '3306',
     }
