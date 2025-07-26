@@ -11,9 +11,6 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 import os
 
-# Ensure this BASE_DIR line is at the top of your settings file
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
