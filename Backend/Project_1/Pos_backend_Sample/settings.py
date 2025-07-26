@@ -27,7 +27,6 @@ DEBUG = False
 
  
 ALLOWED_HOSTS = ['tcafe-23.onrender.com']
-
  
 
 # Application definition
